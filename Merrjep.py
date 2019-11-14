@@ -6,11 +6,9 @@ from bs4 import BeautifulSoup
 import datetime
 
 
-pages = int(input("Shtyp Numrin e Faqeve: "))
+end_page_num = int(input("Shtyp Numrin e Faqeve: "))
 qyteti = input("Ne cilin qytet doni te kerkoni?: ")
 linku = "https://www.merrjep.com/shpalljet/{}".format(qyteti)
-
-end_page_num = pages
 
 filename = "Merrjep_" + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")+".csv"
 with open(filename, "w+", encoding='utf-8') as f:
