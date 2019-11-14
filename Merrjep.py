@@ -6,7 +6,11 @@ from bs4 import BeautifulSoup
 import datetime
 
 
-end_page_num = 50
+pages = int(input("Shtyp Numrin e Faqeve: "))
+qyteti = input("Ne cilin qytet doni te kerkoni?: ")
+linku = "https://www.merrjep.com/shpalljet/{}".format(qyteti)
+
+end_page_num = pages
 
 filename = "Merrjep_" + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")+".csv"
 with open(filename, "w+", encoding='utf-8') as f:
@@ -16,7 +20,7 @@ with open(filename, "w+", encoding='utf-8') as f:
     i = 1
     while i <= end_page_num:
 
-        r = requests.get("https://www.merrjep.com/shpalljet/ferizaj?Page={}".format(i))
+        r = requests.get(linku,"?Page={}".format(i))
         content = r.content
 
         soup = BeautifulSoup(r.text, "html5lib")
