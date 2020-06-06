@@ -1,6 +1,6 @@
 # Merrjep Scraper
 
-This Program is made for fun, help others to develop any scrapper they need.
+This Scraper doesn't, it is published help others to develop any scrapper they need. 
 
 ### Python Requirements: ###
 * Python 3.x
