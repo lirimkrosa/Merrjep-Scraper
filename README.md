@@ -12,4 +12,6 @@ This Program is made for fun, help others to develop any scrapper they need.
 * io
 * pytesseract
 
-### Have a fun ###
+
+## ✍️ Authors <a name = "authors"></a>
+- [lirimkrosa](https://github.com/lirimkrosa) - Idea & All the work
