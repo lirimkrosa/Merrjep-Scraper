@@ -1,4 +1,3 @@
-#Copyrights - Lirim Krosa
 import urllib.request
 import csv
 import requests
