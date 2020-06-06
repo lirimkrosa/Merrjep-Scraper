@@ -1,6 +1,6 @@
 # Merrjep Scraper
 
-This Scraper doesn't work, it is published help others to develop any scrapper they need. 
+This Scraper doesn't work, it is published to help others to develop any scrapper they need. 
 
 ### Python Requirements: ###
 * Python 3.x
